@@ -1,3 +1,9 @@
+.projecthead{
+  padding: 0 10px;
+}
+.projecthead h1{
+    text-align: center;
+}
 .card {
   height: 550px;
   width: 350px;

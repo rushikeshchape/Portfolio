@@ -1,0 +1,235 @@
+@media only screen and (max-width: 370px) {
+  .tophome {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 55vh;
+  }
+  .textmain h1 {
+    font-size: larger;
+  }
+  .textmain span {
+    font-size: large;
+  }
+  .vectorimg .image {
+    width: 280px;
+    height: 200px;
+  }
+  .bottomhome {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .introdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .introdiv .texttitle {
+    font-size: 20px;
+  }
+
+  .introdiv .textcontent {
+    font-size: 15px;
+  }
+  .imgbottom {
+    width: 250px;
+    height: 250px;
+  }
+  .findmeblock {
+    display: flex;
+    align-items: center;
+    margin-top: 270px;
+  }
+}
+@media (min-width: 370px) and (max-width: 500px) {
+  .tophome {
+    margin-top: 100px;
+  }
+  .textmain h1 {
+    font-size: 25px;
+  }
+  .textmain span {
+    font-size: 22px;
+  }
+
+  .vectorimg .image {
+    width: 280px;
+    height: 210px;
+  }
+  .bottomhome {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* justify-content: center;; */
+  }
+  .introdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+  }
+  .introdiv .texttitle {
+    font-size: 23px;
+  }
+
+  .introdiv .textcontent {
+    font-size: 16px;
+  }
+  .imgbottom {
+    width: 280px;
+    height: 280px;
+  }
+  .findmeblock {
+    display: flex;
+    align-items: center;
+    margin-top: 350px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+  .tophome {
+    /* margin-top: 130px; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+  }
+  .textmain h1 {
+    font-size: 25px;
+  }
+  .textmain span {
+    font-size: 22px;
+  }
+  .vectorimg .image {
+    width: 280px;
+    height: 210px;
+  }
+  .bottomhome {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* justify-content: center;; */
+  }
+  .introdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+  .introdiv .texttitle {
+    font-size: 32px;
+  }
+
+  .introdiv .textcontent {
+    font-size: 17px;
+  }
+  .imgbottom {
+    width: 320px;
+    height: 320px;
+  }
+  .findmeblock {
+    display: flex;
+    align-items: center;
+    margin-top: 350px;
+  }
+}
+@media (min-width: 700px) and (max-width: 1050px) {
+  .tophome {
+    /* margin-top: 130px; */
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+  }
+  .textmain h1 {
+    font-size: 30px;
+  }
+  .textmain span {
+    font-size: 26px;
+  }
+  .vectorimg .image {
+    width: 280px;
+    height: 220px;
+  }
+  .bottomhome {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* justify-content: center;; */
+  }
+  .introdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+  .introdiv .texttitle {
+    font-size: 40px;
+  }
+  .introdiv .textcontent {
+    font-size: 18px;
+  }
+  .imgbottom {
+    width: 340px;
+    height: 340px;
+  }
+  .findmeblock {
+    display: flex;
+    align-items: center;
+    margin-top: 350px;
+  }
+}
+@media (min-width: 1050px) and (max-width: 1184px) {
+  .tophome {
+    /* margin-top: 130px; */
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+  }
+  .textmain h1 {
+    font-size: 50px;
+  }
+  .textmain span {
+    font-size: 40px;
+  }
+  .vectorimg .image {
+    width: 400px;
+    height: 300px;
+  }
+  .bottomhome {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: center;; */
+  }
+  .introdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    width: 700px;
+  }
+  .introdiv .texttitle {
+    font-size: 40px;
+  }
+  .introdiv .textcontent {
+    font-size: 15px;
+  }
+  .imgbottom {
+    width: 250px;
+    height: 250px;
+  }
+  .findmeblock {
+    display: flex;
+    align-items: center;
+  }
+}

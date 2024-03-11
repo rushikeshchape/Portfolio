@@ -1,0 +1,24 @@
+@media screen and (max-width: 370px) {
+  .logo {
+    font-size: 25px;
+  }
+  .nav_links {
+    flex-wrap: nowrap;
+    text-align: center;
+  }
+  .nav_links a {
+    font-size: medium;
+  }
+}
+@media (min-width: 370px) and (max-width:500px) {
+    .logo {
+        font-size: 23px;
+      }
+      .nav_links {
+        flex-wrap: nowrap;
+        text-align: center;
+      }
+      .nav_links a {
+        font-size: medium;
+      }
+}

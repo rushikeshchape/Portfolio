@@ -1,0 +1,46 @@
+*{
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.footermain{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    /* border: 1px solid white; */
+    padding: 20px;
+    background-image: url('https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8620.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1708214400&semt=ais');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footerlink{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 370px) {
+    .footermain p{
+        font-size:14px;
+        padding: 5px;
+    }
+    .footerlink{
+        padding:5px;
+    }
+}
+@media (min-width: 370px) and (max-width:500px) {
+    .footermain p{
+        font-size:14px;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 500px) and (max-width:700px) {
+    .footermain p{
+        font-size:14px;
+        padding: 5px;
+    }
+}

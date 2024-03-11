@@ -1,0 +1,159 @@
+@media only screen and (max-width: 370px) {
+  .upperDiv {
+    flex-direction: column;
+  }
+  .aboutContent {
+    /* font-size:small; */
+    width: 320px;
+  }
+  .aboutHead {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .textcontentabt {
+    font-size: 15px;
+  }
+  .textcontentabtlist li {
+    font-size: 15px;
+  }
+  .abtimg {
+    width: 250px;
+    height: 250px;
+  }
+  .skills,
+  .tools {
+    text-align: center;
+  }
+  .skilldiv {
+    transition: none;
+  }
+}
+@media (min-width: 370px) and (max-width:500px) {
+  .upperDiv {
+    flex-direction: column;
+  }
+  .aboutContent {
+    width: 350px;
+  }
+  .aboutHead {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .textcontentabt {
+    font-size: 18px;
+  }
+  .textcontentabtlist li {
+    font-size: 18px;
+  }
+  .abtimg {
+    width: 320px;
+    height: 320px;
+  }
+  .skills,
+  .tools {
+    text-align: center;
+  }
+  .skilldiv {
+    transition: .1s;
+  }
+}
+@media (min-width: 500px) and (max-width:700px) {
+
+  .upperDiv {
+    margin-top: 0;
+    flex-direction: column;
+  }
+  .aboutContent {
+    width: 550px;
+  }
+  .aboutHead {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+   .textcontentabt {
+    font-size: 18px;
+  }
+  .textcontentabtlist li {
+    font-size: 18px;
+  }
+  .abtimg {
+    width: 380px;
+    height: 380px;
+  }
+  .skills,
+  .tools {
+    text-align: center;
+  }
+  .skilldiv {
+    transition: .1s;
+  }
+}
+@media (min-width: 700px) and (max-width: 1050px) {
+  .upperDiv {
+    height:450px;
+    margin-top: 0;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .aboutContent {
+    width: 350px;
+  }
+  .aboutHead {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+   .textcontentabt {
+    font-size: 15px;
+  }
+  .textcontentabtlist li {
+    font-size: 15px;
+  }
+  .abtimg {
+    width: 280px;
+    height: 280px;
+  }
+  .skills,
+  .tools {
+    text-align: center;
+  }
+  .skilldiv {
+    transition: .1s;
+  }
+}
+@media (min-width: 1050px) and (max-width: 1184px) {
+  .upperDiv {
+    height:450px;
+    margin-top: 0;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .aboutContent {
+    width: 500px;
+  }
+  .aboutHead {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+   .textcontentabt {
+    font-size: 16px;
+  }
+  .textcontentabtlist li {
+    font-size: 15px;
+  }
+  .abtimg {
+    width: 280px;
+    height: 280px;
+  }
+  .skills,
+  .tools {
+    text-align: center;
+  }
+  .skilldiv {
+    transition: .1s;
+  } 
+}

@@ -1,0 +1,15 @@
+@import url('./component/css/style.css');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background-image: url('https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8620.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1708214400&semt=ais');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height: 120vh; */
+}
